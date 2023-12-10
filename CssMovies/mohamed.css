@@ -1,0 +1,262 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Gabarito', sans-serif;
+    background-color:rgb(0, 0, 0);
+    scroll-behavior: smooth;
+
+}
+h2 {
+    color: white;
+    position: absolute;
+    top: 130px;
+    left: 30px;
+}
+h1{
+    font-family: 'Permanent Marker', cursive;
+    font-size: 30px;
+    color: red;
+}
+h3 {
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+    position: absolute;
+    top: 350px;
+    left: 390px;
+    color: black;
+}
+#searchInput{
+    width: 400px;
+    height: 50px;
+    position: absolute;
+    top: 90px;
+    right:480px;
+    border-radius: 10px;
+    border: 0px;
+    background-color: rgb(212, 183, 183);
+    outline: 0px;
+    font-family: 'Gabarito', sans-serif;
+}
+.button{
+    width: 100px;
+    height: 50px;
+    position: absolute;
+    top: 90px;
+    right:460px;
+    border: 0px;
+    color: white;
+    border-radius: 10px;
+    background-color:red;
+}
+.cover{
+    background-image: url("../wallpaper/cover.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.choose{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    background-color: rgb(16, 15, 15);
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.option {
+    display: flex;
+    position: absolute;
+    left:15px;
+    top: 340px;
+    gap: 10px;
+    color: white;
+    padding: 10px;
+}
+.online .on{
+    font-family: 'Gabarito', sans-serif;
+    font-size: 20px;
+    border: 0px;
+    border-radius: 30px;
+    background-color: rgb(0, 0, 0);
+    color: wheat;
+    padding: 10px;
+    height: 50px;
+}
+.online .on:hover {
+    background-color: red;
+}
+.trailer .ta {
+    border: 0px;
+    font-family: 'Gabarito', sans-serif;
+    font-size: 20px;
+    border-radius: 30px;
+    background-color: rgb(0, 0, 0);
+    padding: 10px;
+    height: 50px;
+    color: white;
+}
+.trailer .ta:hover {
+    background-color: red;
+}
+
+.home{
+    font-family: 'Gabarito', sans-serif;
+    font-size: 20px;
+    border: 0px;
+    color: wheat;
+    cursor: pointer;
+    background-color: rgb(16, 15, 15);
+}
+.home:hover{
+    color: red;
+}
+.discription{
+    width: 400px;
+    position: absolute;
+    top: 180px;
+    left: 30px;
+    color: wheat;
+    font-size: 20px;
+    opacity: 0.6;
+    font-weight: bold;
+}
+
+video {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0px;
+    top: 100px;
+}
+.the_dark_knight_rises{
+    width: 100%;
+    height: 100%;
+    margin: 10px;
+    padding: 10px;
+    position: absolute;
+    top: 70px;
+    left: -10px;
+    background-image: url("/wallpaper/wallpaperflare.com_wallpaper\ \(5\).jpg");
+    background-size:100%,50%;
+    background-repeat: no-repeat;
+}
+.interstellar {
+    width: 100%;
+    height: 100%;
+    margin: 10px;
+    position: absolute;
+    top: 70px;
+    left: -10px;
+    background-image: url("../wallpaper/back.png");
+    background-size:100%,200px;
+    background-repeat: no-repeat;
+}
+.oppenhimer {
+    width: 100%;
+    height: 100%;
+    margin: 10px;
+    position: absolute;
+    top: 70px;
+    left: -10px;
+    background-image: url("../wallpaper/oppenhiemar.jpg");
+    background-size:100%,50%;
+    background-repeat: no-repeat;
+}
+.endgame {
+    width: 100%;
+    height: 100%;
+    margin: 10px;
+    position: absolute;
+    top: 70px;
+    left: -10px;
+    background-image: url("../wallpaper/endend.png");
+    background-size:100%,50%;
+    background-repeat: no-repeat;
+}
+.TheDarkKnigth{
+    width: 100%;
+    height: 100%;
+    margin: 10px;
+    position: absolute;
+    top: 70px;
+    left: -10px;
+    background-image: url("../wallpaper/joker.png");
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+
+.dis .script {
+    font-size: 20px;
+    position: absolute;
+    top: 450px;
+    left: 450px;
+    width: 500px;
+    height: 50px;
+    color: rgb(255, 179, 0);
+    font-weight: bold;
+    opacity: 0.5;
+}
+.movies{
+    scroll-behavior: smooth;
+    position: absolute;
+    top: 70px;
+    left: 10px;
+    width: 99%;
+    height: 100%;
+    padding: 20px;
+    display:grid;
+    grid-template-columns: repeat(6,1fr);
+    grid-template-rows: repeat(5,1fr);
+    gap: 5px;
+}
+.img{
+    width: 200px;
+    height: 300px;
+    border-radius: 10px;
+    color: wheat;
+}
+.series{
+    padding: 20px;
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+    gap: 5px;
+}
+/* For Desktop View */
+@media screen and (min-width: 1024px) {
+}
+/* For Tablet View */
+@media screen and (min-device-width: 768px) 
+    and (max-device-width: 1024px) {
+}
+/* For Mobile Portrait View */
+@media screen and (max-device-width: 480px) 
+    and (orientation: portrait) {
+}
+/* For Mobile Landscape View */
+@media screen and (max-device-width: 640px) 
+    and (orientation: landscape) {
+}
+/* For Mobile Phones Portrait or Landscape View */
+@media screen
+    and (max-device-width: 640px) {
+}
+/* For iPhone 4 Portrait or Landscape View */
+@media screen and (min-device-width: 320px) 
+    and (-webkit-min-device-pixel-ratio: 2) {
+}
+/* For iPhone 5 Portrait or Landscape View */
+@media (device-height: 568px) 
+    and (device-width: 320px) 
+    and (-webkit-min-device-pixel-ratio: 2) {
+}
+/* For iPhone 6 and 6 plus Portrait or Landscape View */
+@media (min-device-height: 667px) 
+    and (min-device-width: 375px) 
+    and (-webkit-min-device-pixel-ratio: 3) {
+}
